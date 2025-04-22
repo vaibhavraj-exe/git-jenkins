@@ -9,7 +9,7 @@ public class UserService {
         System.out.println("User added: " + user);
     }
 
-    // this is to create and resolve a conflict
+    // this is to create and resolution
 
     public void removeUser(String user) {
         if (users.remove(user)) {
