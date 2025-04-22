@@ -11,22 +11,23 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                // e.g., bat 'npm install' or 'mvn clean install'
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Running Tests...'
-                // bat 'npm test' or 'mvn test'
             }
         }
 
         stage('Deploy') {
             steps {
                 echo 'Deploying...'
-                // Your deploy logic
             }
         }
     }
 }
+
+
+// I am adding this comment to show git conflict resolution
+// I am adding this comment to show git conflict resolution
