@@ -9,7 +9,7 @@ public class UserService {
         System.out.println("User added: " + user);
     }
 
-    // this is to create and git resolution
+    // this is to create and git remote
 
     public void removeUser(String user) {
         if (users.remove(user)) {
